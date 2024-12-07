@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.container {
+  background-image: url(https://www.recordnet.com/gcdn/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG?width=660&height=425&fit=crop&format=pjpg&auto=webp);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.container .maindiv {
+  height: 500px;
+  margin: 0 auto;
+}
+.container .maindiv_navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .maindiv_navbar_left {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+}
+.container .maindiv_navbar_right {
+  height: 100px;
+}
+.container .maindiv_navbar_right_ul {
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .maindiv_navbar_right_ul_li a {
+  color: white;
+}
+.container .maindiv_textbox {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .maindiv_textbox_minibox {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .maindiv_textbox_minibox_template {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: white;
+}
+.container .maindiv_textbox_minibox_cookie {
+  height: 70px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.container .maindiv_textbox_minibox_cookie a {
+  text-decoration: underline;
+}
+.container .maindiv_textbox_minibox_started {
+  height: 30px;
+  width: 20%;
+  padding: 5px 10px;
+  background-color: green;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
